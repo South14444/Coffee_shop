@@ -1,4 +1,7 @@
-﻿create table Coffee(
+﻿use Coffee_shop;
+go
+
+create table Coffee(
 	ID int not null identity(1,1) constraint PK_CoffeeID primary key,
 	Name nvarchar(30) not null,
 	Type_of_coffeeId int not null,
